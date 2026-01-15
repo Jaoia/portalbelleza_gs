@@ -1,0 +1,7 @@
+{
+  "name": "Portal de Belleza - Salud y Bienestar",
+  "description": "Página web profesional para Portal de Belleza, especializada en medicina estética, ortomolecular y bienestar integral en Medellín.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
