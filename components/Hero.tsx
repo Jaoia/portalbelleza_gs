@@ -18,23 +18,23 @@ const Hero: React.FC = () => {
     <section className="relative h-screen flex items-center justify-center text-white overflow-hidden">
       {/* Background Video/Image Container */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-black/45 z-10"></div>
+        <div className="absolute inset-0 bg-black/40 z-10"></div>
         <video 
           autoPlay 
           loop 
           muted 
           playsInline 
-          poster="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=1920&q=80"
+          poster="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1920&q=80"
           className="w-full h-full object-cover object-center scale-105"
         >
           <source 
-            src="https://cdn.pixabay.com/video/2020/03/17/33714-398284693_large.mp4" 
+            src="https://cdn.pixabay.com/video/2021/11/02/94314-645362947_large.mp4" 
             type="video/mp4" 
           />
           {/* Fallback image if video fails to load */}
           <img 
-            src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=1920&q=80"
-            alt="Luxury Aesthetic Center"
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1920&q=80"
+            alt="Luxury Aesthetic Center Medellín"
             className="w-full h-full object-cover"
           />
         </video>
