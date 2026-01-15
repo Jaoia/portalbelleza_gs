@@ -41,17 +41,15 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="relative z-20 text-center px-6 max-w-5xl mx-auto">
-        <div className="overflow-hidden mb-4">
+        <div className="overflow-hidden mb-8">
           <h2 className="text-sm md:text-base font-bold tracking-[0.4em] uppercase opacity-90 animate-fade-in-down">
             Salud, Belleza y Bienestar Integral
           </h2>
         </div>
         
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-10 leading-[1.1] animate-fade-in-up">
-          Donde tu bienestar <br className="hidden md:block"/> es nuestra prioridad
-        </h1>
+        {/* Se ha eliminado el H1 principal a petición del usuario */}
         
-        <p className="text-lg md:text-2xl text-white/90 mb-14 max-w-3xl mx-auto font-light leading-relaxed animate-fade-in-up delay-200">
+        <p className="text-xl md:text-3xl text-white/95 mb-14 max-w-4xl mx-auto font-light leading-relaxed animate-fade-in-up delay-200">
           Expertos en medicina ortomolecular y tratamientos estéticos de vanguardia en Medellín. 
           Resultados naturales con la mejor tecnología.
         </p>
